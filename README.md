@@ -15,7 +15,7 @@ The Photon is attached to the back of the robot's body through the shield on its
 * 2 Buttons (Hands)
 * 1 Buzzer (Mouth)
 * 1 Temperature sensor (Body)
-* 1 Microphonne (Head)
+* 1 Microphonne (Body)
 * 1 Head Servo (Neck)
 * 2 Arm Servos (Shoulders)
 
