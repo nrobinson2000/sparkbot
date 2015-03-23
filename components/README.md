@@ -4,7 +4,6 @@ Listed below is the components for the robot body + accessories.
 **Prices correct on Amazon of March 23, 2015**
 
 ####Components for each individual unit:
-* 1 HC-SR04 Distance Measuring Transducer Sensor Ultrasonic Module
 * 4 5mm Diameter Frosted Head 4 Pins RGB Light LED Diodes
 * 1 DS18B20 Digital Temperature Sensor
 * 1 Piezo Buzzer Electric Transducer
@@ -16,7 +15,6 @@ Listed below is the components for the robot body + accessories.
 * 2 Quality Mini Micro Momentary Tactile Push Button Switches
 
 ####Links to parts on Amazon.co.uk:
-* http://www.amazon.co.uk/HC-SR04-Distance-Measuring-Transducer-Ultrasonic/dp/B006CHFLR2/ref=sr_1_1?ie=UTF8&qid=1427128289&sr=8-1&keywords=ultrasonic+sensor
 * http://www.amazon.co.uk/Diameter-Frosted-Head-Light-Diodes/dp/B0087YR7UW/ref=sr_1_2?ie=UTF8&qid=1427128332&sr=8-2&keywords=rgb+led
 * http://www.amazon.co.uk/Temperature-Sensor--Fit-Long-distance-Multipoint-Detention/dp/B0085QLYX8/ref=sr_1_1?ie=UTF8&qid=1427128357&sr=8-1&keywords=dallas+temperature+sensor
 * http://www.amazon.co.uk/Piezo-Buzzer-Electric-Transducer-Arduino/dp/B00OS81QTO/ref=sr_1_5?ie=UTF8&qid=1427128378&sr=8-5&keywords=arduino+buzzer
