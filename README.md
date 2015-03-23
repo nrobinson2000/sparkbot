@@ -11,8 +11,9 @@ The Photon is attached to the back of the robot's body through the shield on its
 * 1 Protective travel case
 
 ####The Robot body includes the following components:
-* 1 Ultrasonic ping sensor (Eyes)
-* 1 Speaker (Mouth)
+* 4 RGB led's (Eyes + Hands)
+* 2 Buttons (Hands)
+* 1 Buzzer (Mouth)
 * 1 Temperature sensor (Head)
 * 1 Head Servo (Neck)
 * 2 Arm Servos (Shoulders)
