@@ -11,12 +11,9 @@ Listed below is the components for the robot body + accessories.
 * 3 VicTsing 5 Pcs Mini SG90 9g Micro Servo Motor
 * Male and Female headers
 * 65 pcs Jumper Wire assortment
-* 1 Half Breadboard
 * 2 Quality Mini Micro Momentary Tactile Push Button Switches
-
-#####Acessories:
+* 1 Half Breadboard
 * 1 Micro USB cable
-* 1 Spark Photon
 
 ####Links to parts on Amazon.co.uk:
 * http://www.amazon.co.uk/Diameter-Frosted-Head-Light-Diodes/dp/B0087YR7UW/ref=sr_1_2?ie=UTF8&qid=1427128332&sr=8-2&keywords=rgb+led
@@ -26,5 +23,6 @@ Listed below is the components for the robot body + accessories.
 * http://www.amazon.co.uk/VicTsing-Micro-Helicopter-Airplane-controls/dp/B00J593SKQ/ref=sr_1_3?ie=UTF8&qid=1427128974&sr=8-3&keywords=servo+motor
 * http://www.amazon.co.uk/Female-Single-40-Square-Pin-Header-Components/dp/B008QUVM4E/ref=sr_1_1?ie=UTF8&qid=1427128316&sr=8-1&keywords=female+headers
 * http://www.amazon.co.uk/Reusable-Solderless-Breadboard-Circut-Creating--Assorted/dp/B008U4ZOLI/ref=sr_1_3?ie=UTF8&qid=1427128429&sr=8-3&keywords=assorted+jumper+wires
-* http://www.amazon.co.uk/BB400-Solderless-Plug--BreadBoard-tie-points/dp/B0040Z1ERO/ref=sr_1_3?ie=UTF8&qid=1427128503&sr=8-3&keywords=mini+breadboard
 * http://www.amazon.co.uk/Generic-Quality-Momentary-Tactile-Button/dp/B00D82M9LA/ref=sr_1_3?ie=UTF8&qid=1427132569&sr=8-3&keywords=push+button
+* http://www.amazon.co.uk/BB400-Solderless-Plug--BreadBoard-tie-points/dp/B0040Z1ERO/ref=sr_1_3?ie=UTF8&qid=1427128503&sr=8-3&keywords=mini+breadboard
+* http://www.amazon.co.uk/CHARGER-Samsung-ERICSSON-Incredible-BlackBerry-iZKA/dp/B004Z7D01K/ref=sr_1_4?ie=UTF8&qid=1427136298&sr=8-4&keywords=micro+usb
