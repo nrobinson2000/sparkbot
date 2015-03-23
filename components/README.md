@@ -14,6 +14,10 @@ Listed below is the components for the robot body + accessories.
 * 1 Half Breadboard
 * 2 Quality Mini Micro Momentary Tactile Push Button Switches
 
+#####Acessories:
+* 1 Micro USB cable
+* 1 Spark Photon
+
 ####Links to parts on Amazon.co.uk:
 * http://www.amazon.co.uk/Diameter-Frosted-Head-Light-Diodes/dp/B0087YR7UW/ref=sr_1_2?ie=UTF8&qid=1427128332&sr=8-2&keywords=rgb+led
 * http://www.amazon.co.uk/Temperature-Sensor--Fit-Long-distance-Multipoint-Detention/dp/B0085QLYX8/ref=sr_1_1?ie=UTF8&qid=1427128357&sr=8-1&keywords=dallas+temperature+sensor
