@@ -2,6 +2,7 @@
 There are several different sensors and components that will be reqire to menufature the SparkBot.
 Listed below is the components for the robot body + accessories.
 **Prices correct on Amazon of March 23, 2015**
+**Estimated per unit manufacturing cost: £30**
 
 ####Components for each individual unit:
 * 4 5mm Diameter Frosted Head 4 Pins RGB Light LED Diodes
