@@ -8,7 +8,7 @@ The Photon is attached to the back of the robot's body through the shield on its
 * 1 Micro usb cable
 * 1 Mini Breadboard  
 * 1 Robot Body with Photon attachment shield
-* 100 Assorted jumper wires
+* 65 Assorted jumper wires
 * 1 Protective travel case
 
 ####The Robot body includes the following components:
