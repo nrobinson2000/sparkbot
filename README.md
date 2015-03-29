@@ -6,7 +6,7 @@ The purpose of SparkBot is to create a friendly robot frontend that will get peo
 The Photon is the SparkBot's brain.  It is programmed with the Spark.io web IDE, and can hold one program (firmware) at a time.
 This repository contains the example code used in the book and other projects.
 
-The Photon is attached to the back of the robot's body through the shield on its back.
+For more information on the soon to be released Photon, head to https://store.spark.io/?product=spark-photon
 ###The SparkBot kit includes:
 * 1 Spark Photon
 * 1 Micro usb cable
