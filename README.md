@@ -1,6 +1,6 @@
 <img src="https://dl.pushbulletusercontent.com/cbSv0eZWjjHaI7bzlDmvIk6UyvvBqrcO/SparkBotLogo-Title.png">
 # SparkBot: The IoT robotics kit for everyone
-SparkBot is a kit designed for ages 9 and up.  Its goal is to teach basic robotics, Arduino programming skills, and REST API's.
+SparkBot is a kit designed for ages 12 and up.  Its goal is to teach basic robotics, Arduino programming skills, and REST API's.
 The SparkBot is a friendly robot frontend for the Spark Photon by Spark Industries.
 The Photon is attached to the back of the robot's body through the shield on its back.
 ###The SparkBot kit includes:
