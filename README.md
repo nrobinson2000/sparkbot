@@ -23,5 +23,5 @@ The Photon is attached to the back of the robot's body through the shield on its
 The SparkBot's body is composed of several 3D printed plastic parts.  I will release these soon.
 The SparkBot is under the GPL liscence.  Anyone can use the schematics and code here or print the 3d model files.
 
-* [Pinout Diagram](http://i.imgur.com/s7H3DSA.jpg)
-<img src="http://i.imgur.com/s7H3DSA.jpg">
+
+<img src="http://i.imgur.com/KDgm0YU.jpg">
