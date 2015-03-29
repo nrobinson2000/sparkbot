@@ -1,4 +1,4 @@
-//Copy and paste this into the Spark IDE
+//Copy and paste this file into the Spark IDE
 /*This firmware controls the arms and head movement using the two buttons on SparkBot's hands.  Whenever you press a button, the
 corresponding arm moves either up or down, the moodlight system turns either red, blue or green randomly, and the head moves to a random
 angle.  This firmware was released for SparkBot under the GPL lisence.
