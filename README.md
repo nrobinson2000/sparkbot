@@ -24,4 +24,4 @@ The SparkBot's body is composed of several 3D printed plastic parts.  I will rel
 The SparkBot is under the GPL liscence.  Anyone can use the schematics and code here or print the 3d model files.
 
 
-<img src="http://i.imgur.com/KDgm0YU.jpg">
+<img src="http://i.imgur.com/KDgm0YUl.jpg">
