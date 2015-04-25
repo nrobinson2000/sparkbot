@@ -12,6 +12,28 @@ bool redLedOn = false;
 bool blueLedOn = false;
 bool greenLedOn = false;
 
+
+
+void doSomething(const char *event, const char *data)
+{
+  if (redLedOn == false && blueLedOn == false && greenLedOn == false)
+  {
+    digitalWrite(blueLed, HIGH);
+    digitalWrite(redLed, LOW);
+    digitalWrite(greenLed, LOW);
+    blueLedOn = true;
+    return;
+  }
+
+  if (redLedOn == false && blueLedOn == true && greenLedOn == false)
+  {
+    digitalWrite(greenLed, HIGH);
+    digitalWrite(redLed, LOW);
+    //pinMode
+
+  }
+}
+
 void setup()
 {
   Spark.subscribe("doButtonPressed", doSomething);
@@ -25,24 +47,4 @@ void loop()
 {
 
 
-}
-
-void doSomething()
-{
-  if (redLedOn == false && blueLedOn == false && greenLedOn == false)
-  {
-    pinMode(blueLed, HIGH);
-    pinMode(redLed, LOW);
-    pinMode(greenLed, LOW);
-    blueLedOn = true;
-    return;
-  }
-
-  if (redLedOn == false && blueLedOn == true && greenLedOn == false)
-  {
-    pinMode(greenLed, HIGH);
-    pinMode(redLed, LOW)
-    pinMode
-
-  }
 }
