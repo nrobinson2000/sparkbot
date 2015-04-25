@@ -13,25 +13,48 @@ bool blueLedOn = false;
 bool greenLedOn = false;
 
 
+void doLights() // Here is the function for changing the color of the lights
+{
+    int decision = random(2);
+    if (decision = 0)
+    {
+        digitalWrite(redLed, HIGH);
+        digitalWrite(blueLed, LOW);
+        digitalWrite(greenLed, LOW);
+
+        redLedOn = true;
+        blueLedOn = false;
+        greenLedOn = false;
+        return;
+    }
+    if (decision = 1)
+    {
+      digitalWrite(redLed, LOW);
+      digitalWrite(blueLed, HIGH);
+      digitalWrite(greenLed, LOW);
+
+      redLedOn = false;
+      blueLedOn = true;
+      greenLedOn = false;
+      return;
+
+    }
+    if (decision = 2)
+    {
+      digitalWrite(redLed, LOW);
+      digitalWrite(blueLed, LOW);
+      digitalWrite(greenLed, HIGH);
+
+      redLedOn = false;
+      blueLedOn = false;
+      greenLedOn = false;
+      return;
+    }
+}
 
 void doSomething(const char *event, const char *data)
 {
-  if (redLedOn == false && blueLedOn == false && greenLedOn == false)
-  {
-    digitalWrite(blueLed, HIGH);
-    digitalWrite(redLed, LOW);
-    digitalWrite(greenLed, LOW);
-    blueLedOn = true;
-    return;
-  }
-
-  if (redLedOn == false && blueLedOn == true && greenLedOn == false)
-  {
-    digitalWrite(greenLed, HIGH);
-    digitalWrite(redLed, LOW);
-    //pinMode
-
-  }
+  doLights();
 }
 
 void setup()
