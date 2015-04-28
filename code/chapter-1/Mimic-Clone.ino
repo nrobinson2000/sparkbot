@@ -6,7 +6,7 @@ Servo neckservo;
 
 int redled = D4;
 int blueled = D5;
-int greenled =D6;
+int greenled = D6;
 
 void setup()
 {

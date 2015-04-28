@@ -13,7 +13,7 @@ int leftbutton = A5;
 
 int redled = D4;
 int blueled = D5;
-int greenled =D6;
+int greenled = D6;
 
 bool redledOn = false;
 bool blueledOn = false;
