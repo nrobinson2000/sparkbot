@@ -19,7 +19,7 @@ int leftbutton = A5;
 
 int redled = D4; //Here we define the three diffent RGB LED pins.
 int blueled = D5;
-int greenled =D6;
+int greenled = D6;
 
 int choice = 0; //This variable is used when the lights turn a random color.
 
