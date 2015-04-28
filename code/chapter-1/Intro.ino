@@ -40,15 +40,15 @@ leftservo.write(90);
 void light() // Here is the function for changing the color of the lights
 {
     choice = random(2);
-    if (choice = 0)
+    if (choice == 0)
     {
         red();
     }
-    if (choice = 1)
+    if (choice == 1)
     {
         blue();
     }
-    if (choice = 2)
+    if (choice == 2)
     {
         green();
     }
