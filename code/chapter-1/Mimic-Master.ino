@@ -1,7 +1,5 @@
 //Mimic-Master.ino
 
-#include "math.h" //This is the library that includes the random function.
-
 Servo rightservo;
 Servo leftservo;
 Servo neckservo;
