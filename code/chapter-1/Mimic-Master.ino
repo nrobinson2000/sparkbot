@@ -121,5 +121,6 @@ void syncLights()
   if (greenledOn == true)
   {
     Spark.publish("GreenLed");
+    return;
   }
 }
