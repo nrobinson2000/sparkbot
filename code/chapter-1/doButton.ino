@@ -16,7 +16,7 @@ bool greenLedOn = false;
 void doLights() // Here is the function for changing the color of the lights
 {
     int decision = random(2);
-    if (decision = 0)
+    if (decision == 0)
     {
         digitalWrite(redLed, HIGH);
         digitalWrite(blueLed, LOW);
@@ -27,7 +27,7 @@ void doLights() // Here is the function for changing the color of the lights
         greenLedOn = false;
         return;
     }
-    if (decision = 1)
+    if (decision == 1)
     {
       digitalWrite(redLed, LOW);
       digitalWrite(blueLed, HIGH);
@@ -39,7 +39,7 @@ void doLights() // Here is the function for changing the color of the lights
       return;
 
     }
-    if (decision = 2)
+    if (decision == 2)
     {
       digitalWrite(redLed, LOW);
       digitalWrite(blueLed, LOW);
