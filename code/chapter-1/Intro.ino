@@ -3,7 +3,7 @@
 corresponding arm moves either up or down, the moodlight system turns either red, blue or green randomly, and the head moves to a random
 angle.  This firmware was released for SparkBot under the GPL licence.
 
-Written by Nathan Robinson.  Last edit: Mar 29, 2015
+Written by Nathan Robinson.  Last edit: Apr 28, 2015
 */
 
 #include "math.h" //This is the library that includes the random function.
@@ -63,7 +63,7 @@ if (rightservo.read() >= 90)
 
 if (rightservo.read() < 90)
     {
-    rightservo.write(180);   
+    rightservo.write(180);
     }
 light();
 }
@@ -77,7 +77,7 @@ if (leftservo.read() >= 90)
 
 if (leftservo.read() < 90)
     {
-    leftservo.write(180);   
+    leftservo.write(180);
     }
 light();
 }
@@ -116,7 +116,7 @@ void loop() //This is the main loop.  Whenever a button is pressed, it calls the
         rightarm();
         moveNeck();
     }
-    
+
     if (digitalRead(leftbutton) == HIGH)
     {
         leftarm();

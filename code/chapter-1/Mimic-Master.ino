@@ -40,6 +40,9 @@ leftservo.write(90);
 leftArmAngle = leftservo.read();
 }
 
+void loop()
+{/*Nothing to do here.*/}
+
 void sync()
 {
   syncServos();
@@ -108,19 +111,19 @@ void syncLights()
 {
   if (redledOn == true)
   {
-    Spark.publish("RedLed");
+    Spark.publish("redLed");
     return;
   }
 
   if (blueledOn == true)
   {
-    Spark.publish("BlueLed");
+    Spark.publish("blueLed");
     return;
   }
 
   if (greenledOn == true)
   {
-    Spark.publish("GreenLed");
+    Spark.publish("greenLed");
     return;
   }
 }
