@@ -19,36 +19,36 @@ rightservo.write(90);
 leftservo.write(90);
 
 //Subscriptions
-Spark.subscribe("moveNeck", moveNeck);
-Spark.subscribe("moveRight", moveRight);
-Spark.subscribe("moveLeft", moveLeft);
-Spark.subscribe("redLed", redLedChange);
-Spark.subscribe("blueLed", blueLedChange);
-Spark.subscribe("greenLed", greenLedChange);
+Spark.subscribe("moveNeck", moveNeckSlave);
+Spark.subscribe("moveRight", moveRightSlave);
+Spark.subscribe("moveLeft", moveLeftSlave);
+Spark.subscribe("redLed", redLedSlave);
+Spark.subscribe("blueLed", blueLedSlave);
+Spark.subscribe("greenLed", greenLedSlave);
 }
 
 void loop()
 {/*Nothing to do here.*/}
 
-void moveNeck(const char *event, const char *data)
+void moveNeckSlave(const char *event, const char *data)
 {
   neckservo.write(atoi(data));
   return;
 }
 
-void moveRight(const char *event, const char *data)
+void moveRightSlave(const char *event, const char *data)
 {
   rightservo.write(atoi(data));
   return;
 }
 
-void moveLeft(const char *event, const char *data)
+void moveLeftSlave(const char *event, const char *data)
 {
   leftservo.write(atoi(data));
   return;
 }
 
-void redLedChange(const char *event, const char *data)
+void redLedSlave(const char *event, const char *data)
 {
   digitalWrite(redled, HIGH);
   digitalWrite(blueled, LOW);
@@ -56,7 +56,7 @@ void redLedChange(const char *event, const char *data)
   return;
 }
 
-void blueLedChange(const char *event, const char *data)
+void blueLedSlave(const char *event, const char *data)
 {
   digitalWrite(redled, LOW);
   digitalWrite(blueled, HIGH);
@@ -64,7 +64,7 @@ void blueLedChange(const char *event, const char *data)
   return;
 }
 
-void greenLedChange(const char *event, const char *data)
+void greenLedSlave(const char *event, const char *data)
 {
   digitalWrite(redled, LOW);
   digitalWrite(blueled, LOW);
