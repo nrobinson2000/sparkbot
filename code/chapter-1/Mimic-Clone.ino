@@ -22,9 +22,9 @@ leftservo.write(90);
 Spark.subscribe("moveNeck", moveNeck);
 Spark.subscribe("moveRight", moveRight);
 Spark.subscribe("moveLeft", moveLeft);
-Spark.subscribe("redLed", redLed);
-Spark.subscribe("blueLed", blueLed);
-Spark.subscribe("greenLed", greenLed);
+Spark.subscribe("redLed", redLedChange);
+Spark.subscribe("blueLed", blueLedChange);
+Spark.subscribe("greenLed", greenLedChange);
 }
 
 void loop()
@@ -48,7 +48,7 @@ void moveLeft(const char *event, const char *data)
   return;
 }
 
-void redLed(const char *event, const char *data)
+void redLedChange(const char *event, const char *data)
 {
   digitalWrite(redled, HIGH);
   digitalWrite(blueled, LOW);
@@ -56,7 +56,7 @@ void redLed(const char *event, const char *data)
   return;
 }
 
-void blueLed(const char *event, const char *data)
+void blueLedChange(const char *event, const char *data)
 {
   digitalWrite(redled, LOW);
   digitalWrite(blueled, HIGH);
@@ -64,7 +64,7 @@ void blueLed(const char *event, const char *data)
   return;
 }
 
-void greenLed(const char *event, const char *data)
+void greenLedChange(const char *event, const char *data)
 {
   digitalWrite(redled, LOW);
   digitalWrite(blueled, LOW);
