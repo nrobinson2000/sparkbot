@@ -3,7 +3,7 @@ SparkBot is a kit designed for programmers aged 12 and up that uses the Spark Ph
 
 The purpose of SparkBot is to create a friendly robot frontend that will get people excited to program and make projects with.  All you need to use SparkBot is a computer and Wi-Fi.  The Photon is simply attached to the back of the robot through the connectors, and then plugged into the computer via USB.
 
-The Photon is the SparkBot's brain.  It is programmed from the <a href="https://build.spark.io/">Spark.io web IDE</a>, and can be flashed with on project at a time (firmware).
+The Photon is the SparkBot's brain.  It is programmed from the <a href="https://build.spark.io/">Spark.io web IDE</a>, and can be flashed with one project at a time (firmware).
 <img src="http://i.imgur.com/9COu0RM.jpg">
 
 This repository contains the concept designs for SparkBot, the example code, the PCB designs and the components list, and it will later have the marketing plans and the user manual.
