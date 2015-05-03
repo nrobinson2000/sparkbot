@@ -20,7 +20,7 @@ For more information on the soon to be released Photon, head over to <a href="ht
 * 65 Assorted jumper wires
 * 1 Protective travel case
 
-####The Robot body includes the following components:
+###The Robot body includes the following components:
 * 4 RGB led's (Eyes + Hands)
 * 2 Buttons (Hands)
 * 1 Buzzer (Mouth)
