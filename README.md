@@ -11,7 +11,7 @@ This repository contains the concept designs for SparkBot, the example code, the
 
 If you are looking for the C++ library for SparkBot, head  over to <a href="https://github.com/nrobinson2000/sparkbot-default">This repository.</a>
 
-For more information on the soon to be released Photon, head over to <a href="https://store.particle.io/?product=spark-photon">Spark.io</a>
+For more information on the soon to be released Photon, head over to <a href="https://store.particle.io/?product=spark-photon">Particle.io</a>
 ###The SparkBot kit includes:
 * 1 Particle Photon
 * 1 Micro usb cable
