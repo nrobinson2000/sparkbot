@@ -4,7 +4,7 @@
 *eMail=
 *
 *Project=SparkBot_PCB_Main
-*Date=19:04:05
+*Date=18:27:05
 *CreatedBy=Fritzing 0.9.2b.11.19.8d2d5970658f0bed09c661c9ea9a515b5f40f44c
 *
 *
@@ -13,17 +13,25 @@
 *Rotation in degree (0-360, math. pos.)
 *
 *No;Value;Package;X;Y;Rotation;Side;Name
-1;;;3.48065;-35.9078;0;Bottom;Buzzer
-2;;THT;19.9906;-11.7778;90;Bottom;J2
-3;;5 mm [THT];19.643;-6.69783;0;Bottom;RGB Moodlights
-4;;;8.56065;-4.15778;180;Bottom;Arm Servo 2
-5;;THT;33.9606;-34.6378;-90;Bottom;Microphone
-6;220;2512 [SMD];13.6407;-19.1378;90;Bottom;R1
-7;;THT;23.8006;-20.6678;0;Bottom;Button 2
-8;;THT;28.8806;-20.6678;0;Bottom;Button 1
-9;;THT;3.48065;-19.3978;0;Bottom;Temperature Sensor
-10;;;3.48065;-4.15778;180;Bottom;Arm Servo 1
-11;9V;;36.5006;-5.42778;180;Bottom;Battery
-12;;;13.6406;-4.15778;180;Bottom;Head Servo
-13;;THT;19.9906;-29.5578;90;Bottom;J1
-14;;THT;13.6406;-37.1778;-90;Bottom;I/O
+1;;;5.15046;-13.429;0;Bottom;TXT1
+2;;;13.7019;-32.1966;0;Bottom;Via1
+3;;;5.29157;-23.8711;0;Bottom;TXT1
+4;;THT;19.3322;-28.8806;-90;Bottom;B1
+5;;;5.22102;-15.969;0;Bottom;TXT1
+6;;;6.25574;-26.27;0;Bottom;TXT1
+7;;THT;28.2222;-19.9906;0;Bottom;J2
+8;;;35.8422;-8.56045;90;Bottom;LE1
+9;;;5.22102;-21.4017;0;Bottom;TXT1
+10;;;35.8422;-3.48045;90;Bottom;RI1
+11;;;6.0325;-8.25823;0;Bottom;TXT1
+12;;;35.8422;-13.6404;90;Bottom;H1
+13;;;5.22102;-18.6501;0;Bottom;TXT1
+14;;THT;10.4422;-19.9906;0;Bottom;J1
+15;;THT;2.82222;-17.4506;180;Bottom;I/O
+16;;5 mm [THT];33.302;-19.6429;-90;Bottom;RGB
+17;;;4.09222;-3.48045;-90;Bottom;P1
+18;;;5.315;-11.0301;0;Bottom;TXT1
+19;9V;;34.5722;-36.5006;90;Bottom;BATT1
+20;;THT;5.36222;-33.9606;180;Bottom;M1
+21;;THT;19.3322;-23.8006;-90;Bottom;B2
+22;;THT;20.6022;-3.48045;-90;Bottom;T1
