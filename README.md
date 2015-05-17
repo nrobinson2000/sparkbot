@@ -5,7 +5,6 @@ The purpose of SparkBot is to create a friendly robot front-end that will get pe
 
 The Photon is the SparkBot's brain.  It is programmed from the <a href="https://build.particle.io/">Particle.io web IDE</a>, and can be flashed with one project at a time (firmware).
 
-<img src="reference/Pinout.png">
 
 This repository contains the concept designs for SparkBot, the example code, the PCB designs and the components list, and it will later have the marketing plans and the user manual.
 
