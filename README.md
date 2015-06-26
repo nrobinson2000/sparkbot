@@ -1,4 +1,4 @@
-# SparkBot: The IoT robotics kit for everyone
+# <a href="http://sparkbot.co">SparkBot: The IoT robotics kit for everyone</a>
 SparkBot is a kit designed for programmers aged 12 and up that uses the Photon by Particle.  Its goal is to teach basic robotics, Arduino programming skills, and REST APIs in a fun and understandable way.
 
 The purpose of SparkBot is to create a friendly robot front-end that will get people excited to program and make projects with.  All you need to use SparkBot is a computer and Wi-Fi.  The Photon is simply attached to the back of the robot through the connectors, and then plugged into the computer via USB.
