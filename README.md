@@ -23,7 +23,7 @@ For more information on the soon to be released Photon, head over to <a href="ht
 * 4 RGB led's (Eyes + Hands)
 * 2 Buttons (Hands)
 * 1 Buzzer (Mouth)
-* 1 Temperature sensor (Body)
+* 1 Photoresistor (Head)
 * 1 Microphone (Body)
 * 1 Head Servo (Neck)
 * 2 Arm Servos (Shoulders)
@@ -31,3 +31,5 @@ For more information on the soon to be released Photon, head over to <a href="ht
 <img src="reference/Pinout.png">
 
 The SparkBot's body will be composed of several 3D printed plastic parts.  These .stl files will be released under the GPL License, so that anyone with their own 3D printer will be able to print their own custom SparkBot body.
+
+ I will try to get my PCBs printed from OSH Park.  Here is a <a href src="https://oshpark.com/shared_projects/uNNjAW2Q">link to the main PCB.</a>  More coming soon.
