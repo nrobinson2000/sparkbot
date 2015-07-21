@@ -8,7 +8,7 @@
 #PCB Pinout
 * Buzzer = A4
 * Microphone = A3
-* Photoreistor = A0
+* Photoresistor = A0
 
 * IO 0 = A6
 * IO 1 = A1
