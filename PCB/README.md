@@ -8,7 +8,7 @@
 #PCB Pinout
 * Buzzer = A4
 * Microphone = A3
-* Photoreistor = A5
+* Photoreistor = A0
 
 * IO 0 = A6
 * IO 1 = A1
@@ -16,11 +16,13 @@
 * IO 3 = D5
 * IO 4 = D4
 
-* Right Servo = D4
-* Left Servo = D5
-* Neck Servo = D6
-* Red LED = D0
-* Blue LED = D1
-* Green LED = D2
+* Right Servo = D0
+* Left Servo = D1
+* Neck Servo = D2
+
+* Red LED = D3
+* Blue LED = A5
+* Green LED = A7
+
 * Right Button = D7
-* Left Button = D3
+* Left Button = D6
