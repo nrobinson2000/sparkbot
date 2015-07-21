@@ -1,8 +1,9 @@
 #PCB
 ######This directory contains all of the Fritzing PCB files, concept designs, and PDF images of all the SparkBot PCBs.
 
-* SparkBot_PCB_Main: This is the Main Spark Photon shield PCB.
-* SparkBot_PCB_Others: These are the other PCBs used for SparkBot.  They include the 2 Button + RGB PCBs for the hands, the RGB PCB for the head, and the Photoresistor PCB.
+* Main/ - This is the Main Spark Photon shield PCB.
+* Others/ - These are the other PCBs used for SparkBot.  They include the 2 Button + RGB PCBs for the hands, the RGB PCB for the head, and the Photoresistor PCB.
+* Backpacks/ - **NEW UPDATE!** This folder contains the designs for SparkBot Backpacks, which plug in directly to the back of the robot, and are great expansion boards.
 * PCB Sketch.pdf: This was the original design idea for the SparkBot shield.
 
 #PCB Pinout
