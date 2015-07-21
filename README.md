@@ -28,7 +28,7 @@ For more information on the soon to be released Photon, head over to <a href="ht
 * 1 Head Servo (Neck)
 * 2 Arm Servos (Shoulders)
 
-<img src="reference/Pinout.png">
+<img src="PCB/Pinout.png">
 
 The SparkBot's body will be composed of several 3D printed plastic parts.  These .stl files will be released under the GPL License, so that anyone with their own 3D printer will be able to print their own custom SparkBot body.
 
