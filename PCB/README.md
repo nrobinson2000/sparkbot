@@ -9,20 +9,16 @@
 * Buzzer = A4
 * Microphone = A3
 * Photoresistor = A0
-
 * IO 0 = A6
 * IO 1 = A1
 * IO 2 = A2
 * IO 3 = D5
 * IO 4 = D4
-
 * Right Servo = D0
 * Left Servo = D1
 * Neck Servo = D2
-
 * Red LED = D3
 * Blue LED = A5
 * Green LED = A7
-
 * Right Button = D7
 * Left Button = D6
