@@ -10,11 +10,11 @@
 * Microphone = A3
 * Photoreistor = A5
 
-* IO 1 = A7
-* IO 2 = A6
-* IO 3 = A2
-* IO 4 = A1
-* IO 5 = A0
+* IO 0 = A6
+* IO 1 = A1
+* IO 2 = A2
+* IO 3 = D5
+* IO 4 = D4
 
 * Right Servo = D4
 * Left Servo = D5
