@@ -32,4 +32,4 @@ For more information on the soon to be released Photon, head over to <a href="ht
 
 The SparkBot's body will be composed of several 3D printed plastic parts.  These .stl files will be released under the GPL License, so that anyone with their own 3D printer will be able to print their own custom SparkBot body.
 
- I will try to get my PCBs printed from OSH Park.  Here is a <a href="https://oshpark.com/shared_projects/uNNjAW2Q">link to the main PCB.</a>  More coming soon.
+ 
