@@ -1,3 +1,12 @@
-#Todo.md
+#SparkBot Todo List:
 
-* Create a mimic program with two SparkBots.  When one SparkBot's servos move, the other SparkBot's changes.  The second SparkBot will mimic the RGB lights and movements of the first one.  This project will use the Spark.publish() and the Spark.subscribe() functions to quickly send commands between the two SparkBots.
+[] Assemble SparkBot electronics and PCBs
+[] Debug C++ library
+[] Design 3D models for SparkBot body (using Blender?)
+[] 3D print prototype models
+[] Assemble full SparkBot prototypes
+[] Start writing user manual and create documentation website
+[] Design and create packaging prototypes
+[] Get logo from 99Designs
+[] Create SparkBot community and get supporters
+[] Launch Kickstarter campaign?
