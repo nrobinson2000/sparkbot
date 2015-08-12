@@ -1,23 +1,4 @@
-# SparkBot
-
-## The IoT robotics kit for everyone
-
-[Download as .zip][0]
-[Download as .tar.gz][1]
-[View on GitHub][2]
-  
-  
-[Send Feedback][3]
-[![](images/disqus.png)Disqus][4]
-  
-  
-  
-  
-  
-  
-[![](images/amazon-icon.gif)Amazon Wishlist][5]
-
-# [][6]SparkBot: The IoT robotics kit for everyone
+# SparkBot: The IoT robotics kit for everyone
 
 SparkBot is a robotics kit designed for makers and hobbyists, recommended for individuals aged 12 and up. It uses the Photon by Particle to teach C++ and principles of the Internet of Things. Its goal is to teach functional robotics, Arduino, and REST API's in an understandable method.
 
@@ -36,6 +17,7 @@ The Photon is Particle's second IoT development board. Their first was the Core,
 # Licensing:
 
 SparkBot respects and uses many open source technologies and services. All of the software sources and hardware files can be found on GitHub.
+
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)][8]  
 SparkBot by [Nathan Robinson][9] is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][8].  
 Based on a work at [https://github.com/nrobinson2000/sparkbot][2].
