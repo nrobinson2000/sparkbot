@@ -60,7 +60,6 @@ I created the idea for SparkBot back in 9th grade. I have been developing it sin
 [0]: https://github.com/nrobinson2000/sparkbot/zipball/master
 [1]: https://github.com/nrobinson2000/sparkbot/tarball/master
 [2]: https://github.com/nrobinson2000/sparkbot
-[3]: mailto:nrobinson2000@me.com?subject=SparkBot Feedback
 [4]: https://disqus.com/home/forums/sparkbot/
 [5]: http://www.amazon.co.uk/registry/wishlist/1AIE1WKJD3ZFD
 [6]: #sparkbot-the-iot-robotics-kit-for-everyone
