@@ -1,5 +1,4 @@
 # whitelist
 branches:
   only:
-    - master
-    - stable
+    - gh-pages
