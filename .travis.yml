@@ -1,1 +1,5 @@
-
+# whitelist
+branches:
+  only:
+    - master
+    - stable
