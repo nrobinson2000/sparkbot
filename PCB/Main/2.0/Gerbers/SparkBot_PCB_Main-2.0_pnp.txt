@@ -1,0 +1,67 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=SparkBot_PCB_Main-2.0
+*Date=12:33:45
+*CreatedBy=Fritzing 0.9.2b.11.19.8d2d5970658f0bed09c661c9ea9a515b5f40f44c
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;29.1973;-3.50868;0;Bottom;TXT1
+2;;THT;19.4595;-38.078;-90;Bottom;B1
+3;;;9.16728;-11.2928;0;Bottom;TXT2
+4;;;23.6768;-2.95895;0;Bottom;TXT1
+5;;;36.7198;-23.6671;0;Bottom;TXT4
+6;;;36.6891;-36.314;0;Bottom;Via10
+7;;;16.1216;-3.00095;0;Bottom;TXT1
+8;;;34.2103;-8.58885;0;Bottom;TXT21
+9;;THT;18.9092;-5.83396;90;Bottom;I/O
+10;;;35.9197;-43.3419;0;Bottom;TXT5
+11;;;16.3691;-21.0741;0;Bottom;Via20
+12;;;22.8253;-37.9611;0;Bottom;TXT17
+13;;;5.32948;-23.3681;-90;Bottom;TXT10
+14;;THT;20.1792;-33.774;-90;Bottom;B2
+15;;;39.2291;-49.014;0;Bottom;Via8
+16;;THT;10.5695;-29.188;0;Bottom;J1
+17;;;36.3598;-2.31634;0;Bottom;TXT22
+18;;;34.1492;-15.994;90;Bottom;LE1
+19;;;3.66907;-41.394;0;Bottom;Via22
+20;;;18.9797;-25.8012;0;Bottom;TXT19
+21;;;3.66907;-38.854;0;Bottom;Via16
+22;;;1.12907;-46.474;0;Bottom;Via23
+23;;THT;17.6392;-15.994;180;Bottom;LDR
+24;;;26.6288;-3.56935;0;Bottom;TXT1
+25;;;21.4491;-26.1541;0;Bottom;Via3
+26;;5 mm [THT];34.1492;-29.0779;-90;Bottom;RGB
+27;;THT;28.3495;-29.188;0;Bottom;J2
+28;;;26.5291;-10.9141;0;Bottom;Via5
+29;;;13.6724;-2.9795;0;Bottom;TXT1
+30;;;34.1492;-10.914;90;Bottom;RI1
+31;;;19.3325;-23.0495;0;Bottom;TXT18
+32;;;34.1492;-21.074;90;Bottom;H1
+33;;;12.5592;-10.914;-90;Bottom;P1
+34;;;26.3986;-35.3516;0;Bottom;TXT3
+35;;;6.20907;-5.83405;0;Bottom;Via18
+36;;;32.7704;-27.9544;0;Bottom;TXT7
+37;;;7.39799;-22.8768;-90;Bottom;TXT15
+38;;;8.06407;-43.741;0;Bottom;TXT6
+39;;;39.2291;-13.4541;0;Bottom;Via4
+40;;;18.9797;-27.7062;0;Bottom;TXT20
+41;;;11.1897;-3.04187;0;Bottom;TXT1
+42;;;23.3192;-33.2338;0;Bottom;TXT16
+43;;;23.9891;-18.5341;0;Bottom;Via21
+44;;;-0.775829;-43.934;0;Bottom;Part1
+45;9V;;34.6995;-45.698;90;Bottom;BATT1
+46;220;THT;18.9092;-13.454;0;Bottom;R1
+47;;;34.1491;-38.854;0;Bottom;Via9
+48;;;8.70646;-2.97583;0;Bottom;TXT1
+49;;;19.6402;-7.95094;0;Bottom;TXT14
+50;;;18.7326;-2.93685;0;Bottom;TXT1
+51;;;21.1033;-3.01116;0;Bottom;TXT1
+52;;;31.6017;-13.664;0;Bottom;Via6
