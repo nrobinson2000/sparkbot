@@ -1,0 +1,67 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=SparkBot_PCB_Main-2.1
+*Date=12:20:15
+*CreatedBy=Fritzing 0.9.2b.11.19.8d2d5970658f0bed09c661c9ea9a515b5f40f44c
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;23.3192;-33.2338;0;Bottom;TXT16
+2;;;34.1492;-21.074;90;Bottom;H1
+3;;;26.6288;-3.56935;0;Bottom;TXT1
+4;;;29.1973;-3.50868;0;Bottom;TXT1
+5;9V;;34.6995;-45.698;90;Bottom;BATT1
+6;;;1.12907;-46.474;0;Bottom;Via23
+7;;;5.32948;-23.3681;-90;Bottom;TXT10
+8;;;-0.775829;-43.934;0;Bottom;Part1
+9;;;16.1216;-3.00095;0;Bottom;TXT1
+10;;;21.4491;-26.1541;0;Bottom;Via3
+11;;;8.06407;-43.741;0;Bottom;TXT6
+12;;;11.1897;-3.04187;0;Bottom;TXT1
+13;;;34.2103;-8.58885;0;Bottom;TXT21
+14;;;19.3325;-23.0495;0;Bottom;TXT18
+15;;;36.3598;-2.31634;0;Bottom;TXT22
+16;;THT;19.4595;-38.078;-90;Bottom;B1
+17;;;13.6724;-2.9795;0;Bottom;TXT1
+18;;;3.66907;-38.854;0;Bottom;Via16
+19;;5 mm [THT];34.1492;-29.0779;-90;Bottom;RGB
+20;;;7.39799;-22.8768;-90;Bottom;TXT15
+21;;THT;20.1792;-33.774;-90;Bottom;B2
+22;;THT;17.6392;-15.994;180;Bottom;LDR
+23;;;39.2291;-49.014;0;Bottom;Via8
+24;;;22.8253;-37.9611;0;Bottom;TXT17
+25;;;34.1491;-38.854;0;Bottom;Via9
+26;;;23.6768;-2.95895;0;Bottom;TXT1
+27;;;39.2291;-13.4541;0;Bottom;Via4
+28;;;35.9197;-43.3419;0;Bottom;TXT5
+29;;;18.7326;-2.93685;0;Bottom;TXT1
+30;;;34.1492;-15.994;90;Bottom;LE1
+31;;THT;28.3495;-29.188;0;Bottom;J2
+32;;;18.9797;-27.7062;0;Bottom;TXT20
+33;;;34.1492;-10.914;90;Bottom;RI1
+34;;;23.9891;-18.5341;0;Bottom;Via21
+35;;THT;10.5695;-29.188;0;Bottom;J1
+36;;;26.3986;-35.3516;0;Bottom;TXT3
+37;220;THT;18.9092;-13.454;0;Bottom;R1
+38;;;6.20907;-5.83405;0;Bottom;Via18
+39;;;3.66907;-41.394;0;Bottom;Via22
+40;;;31.6017;-13.664;0;Bottom;Via6
+41;;;21.1033;-3.01116;0;Bottom;TXT1
+42;;;9.16728;-11.2928;0;Bottom;TXT2
+43;;;36.6891;-36.314;0;Bottom;Via10
+44;;;36.7198;-23.6671;0;Bottom;TXT4
+45;;;16.3691;-21.0741;0;Bottom;Via20
+46;;;19.6402;-7.95094;0;Bottom;TXT14
+47;;;18.9797;-25.8012;0;Bottom;TXT19
+48;;;12.5592;-10.914;-90;Bottom;P1
+49;;;8.70646;-2.97583;0;Bottom;TXT1
+50;;;32.7704;-27.9544;0;Bottom;TXT7
+51;;THT;18.9092;-5.83396;90;Bottom;I/O
+52;;;26.5291;-10.9141;0;Bottom;Via5
