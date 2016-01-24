@@ -1,5 +1,5 @@
-#Code
-######This is the directory contains all of the SparkBot source code used in the SparkBot manual.  This directory is divided into different directories for each corresponding chapter in the manual.  This code can be used freely for consumer use.
+# Code
 
-###Chapter 1
-The code for Chapter one can be found in the directory chapter-1.  This contains the demo code and exercises for this chapter.
+## This directory contains the code intended to run on the Arduino nano.  The Arduino nano acts as the brawns for my robot, as it controls the Servos and the RGB lights.
+
+The Arduino nano communicates with the Photon over serial.  It can can take direct commands like setting to states of different pins or reading pins, and or advanced commands like running a certain light show or dance.
