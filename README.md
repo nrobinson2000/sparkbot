@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/nrobinson2000/sparkbot.svg?branch=gh-pages)](https://travis-ci.org/nrobinson2000/sparkbot)
+
 [![Gitter](https://badges.gitter.im/nrobinson2000/sparkbot.svg)](https://gitter.im/nrobinson2000/sparkbot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)
 # SparkBot: The IoT robotics kit for everyone
 
