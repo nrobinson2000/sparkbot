@@ -1,4 +1,5 @@
 // This file may be need to be flashed to the Nano in the Arduino IDE.  Just open the "nano" directory and flash.
+#include <Servo.h>
 
 int redled = 6;
 int greenled = 3;
@@ -47,13 +48,13 @@ int parseCommand(String command)
 {
   if (command.startsWith("servo"))
   {
-    String servoValues = command.subString(6);
+    String servoValues = command.substring(6);
     moveServos(servoValues);
   }
 
   if (command.startsWith("rgb"))
   {
-    String rgbValues = command.subString(4);
+    String rgbValues = command.substring(4);
     changeRGB(rgbValues);
   }
 
