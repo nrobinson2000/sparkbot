@@ -1,4 +1,4 @@
-// This file may be need to be flashed to the Nano in the Arduino IDE.  Just open the "nano" directory and flash.
+// This file needs to be flashed to the Nano in the Arduino IDE.  Just open the "nano" directory and flash.
 #include <Servo.h>
 
 int redled = 6;
