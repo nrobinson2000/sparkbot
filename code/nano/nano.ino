@@ -5,9 +5,9 @@ int redled = 6;
 int greenled = 3;
 int blueled = 5;
 
-Servo rightservo;
-Servo leftservo;
 Servo neckservo;
+Servo leftservo;
+Servo rightservo;
 
 String readString;
 
@@ -36,21 +36,23 @@ void loop()
 
   readString.trim();
 
-  if (readString.length() >0)
+  if (readString.length() > 0)
   {
-  parseCommand(readString);
+    parseCommand(readString);
 
-    readString="";
+    readString = "";
   }
 }
 
 int parseCommand(String command)
 {
-  if (command.startsWith("servo"))
-  {
-    String servoValues = command.substring(6);
-    moveServos(servoValues);
-  }
+  Serial.println(command);
+
+//  if (command.startsWith("servo"))
+//  {
+//    String servoValues = command.substring(6);
+//    moveServos(servoValues);
+//  }
 
   if (command.startsWith("rgb"))
   {
@@ -58,65 +60,63 @@ int parseCommand(String command)
     changeRGB(rgbValues);
   }
 
+  if (command.startsWith("moveNeck"))
+  {
+    String servoValues = command.substring(9);
+    moveNeck(servoValues.toInt());
+  }
+
+  if (command.startsWith("moveLeft"))
+  {
+    String servoValues = command.substring(9);
+    moveLeft(servoValues.toInt());
+  }
+
+  if (command.startsWith("moveRight"))
+  {
+    String servoValues = command.substring(10);
+    moveRight(servoValues.toInt());
+  }
+
   if (command.startsWith("neck"))
   {
     Serial.println(neckservo.read());
-  }
-
-  if (command.startsWith("right"))
-  {
-    Serial.println(rightservo.read());
   }
 
   if (command.startsWith("left"))
   {
     Serial.println(leftservo.read());
   }
-}
 
-int moveServos(String data)
-{
-  String neckvalue = data.substring(0, 3);
-  String rightvalue = data.substring(4, 7);
-  String leftvalue = data.substring(8,11);
-
-  if (neckvalue.toInt() != 200)
+  if (command.startsWith("right"))
   {
-    moveNeck(neckvalue.toInt());
-  }
-  if (rightvalue.toInt() != 200)
-  {
-    moveRight(rightvalue.toInt());
-  }
-  if (leftvalue.toInt() != 200)
-  {
-    moveLeft(leftvalue.toInt());
+    Serial.println(rightservo.read());
   }
 }
 
 void moveNeck(int value)
 {
   neckservo.write(value);
-  delay(15);
-}
-
-void moveRight(int value)
-{
-  rightservo.write(value);
-  delay(15);
+  delay(2);
 }
 
 void moveLeft(int value)
 {
   leftservo.write(value);
-  delay(15);
+  delay(2);
+}
+
+void moveRight(int value)
+{
+  rightservo.write(value);
+  delay(2);
 }
 
 int changeRGB(String data)
 {
   String red = data.substring(0, 3);
   String green = data.substring(4, 7);
-  String blue = data.substring(8,11);
+  String blue = data.substring(8, 11);
 
   analogWrite(redled, red.toInt());
   analogWrite(greenled, green.toInt());
