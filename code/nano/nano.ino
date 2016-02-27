@@ -48,11 +48,11 @@ int parseCommand(String command)
 {
   Serial.println(command);
 
-//  if (command.startsWith("servo"))
-//  {
-//    String servoValues = command.substring(6);
-//    moveServos(servoValues);
-//  }
+  //  if (command.startsWith("servo"))
+  //  {
+  //    String servoValues = command.substring(6);
+  //    moveServos(servoValues);
+  //  }
 
   if (command.startsWith("rgb"))
   {
@@ -78,20 +78,26 @@ int parseCommand(String command)
     moveRight(servoValues.toInt());
   }
 
+  if (command.startsWith("servos"))
+  {
+    Serial.println("servos " + makeProper(neckservo.read()) + " " + makeProper(leftservo.read()) + " " + makeProper(rightservo.read()));
+  }
+
   if (command.startsWith("neck"))
   {
-    Serial.println(neckservo.read());
+    Serial.println("neck " + String(neckservo.read()));
   }
 
   if (command.startsWith("left"))
   {
-    Serial.println(leftservo.read());
+    Serial.println("left " + String(leftservo.read()));
   }
 
   if (command.startsWith("right"))
   {
-    Serial.println(rightservo.read());
+    Serial.println("right " + String(rightservo.read()));
   }
+  
 }
 
 void moveNeck(int value)
@@ -121,4 +127,23 @@ int changeRGB(String data)
   analogWrite(redled, red.toInt());
   analogWrite(greenled, green.toInt());
   analogWrite(blueled, blue.toInt());
+}
+
+String makeProper(int value)
+{
+  String valuedata;
+  if (value < 100 && value > 9)
+  {
+    valuedata = String("0" + String(value));
+  }
+  if (value < 10)
+  {
+    valuedata = String("00" + String(value));
+  }
+  else
+  {
+    valuedata = String(value);
+  }
+
+  return valuedata;
 }
