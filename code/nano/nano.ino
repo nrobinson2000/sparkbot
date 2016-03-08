@@ -97,7 +97,7 @@ int parseCommand(String command)
   {
     Serial.println("right " + String(rightservo.read()));
   }
-  
+
 }
 
 void moveNeck(int value)
@@ -124,9 +124,18 @@ int changeRGB(String data)
   String green = data.substring(4, 7);
   String blue = data.substring(8, 11);
 
-  analogWrite(redled, red.toInt());
-  analogWrite(greenled, green.toInt());
-  analogWrite(blueled, blue.toInt());
+  if (red.toInt() != 300)
+  {
+    analogWrite(redled, red.toInt());
+  }
+  if (green.toInt() != 300)
+  {
+    analogWrite(greenled, green.toInt());
+  }
+  if (blue.toInt() != 300)
+  {
+    analogWrite(blueled, blue.toInt());
+  }
 }
 
 String makeProper(int value)
