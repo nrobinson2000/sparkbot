@@ -69,3 +69,5 @@ I created the idea for SparkBot back in 9th grade. I have been developing it sin
 [8]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [9]: http://nrobinson2000.github.io/sparkbot/
 [10]: https://github.com/nrobinson2000/sparkbot-default
+
+<center>[![](https://projecthandup.org/wp-content/uploads/2013/01/RibbonDonateBitcoin.png)](https://nrobinson2000.github.io/donate-bitcoin/)</center>
